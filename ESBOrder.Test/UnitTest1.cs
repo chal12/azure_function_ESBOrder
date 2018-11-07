@@ -1,7 +1,7 @@
 using System;
 using Xunit;
-using System.Threading.Tasks;
-using System.Collections.Generic;
+//using System.Threading.Tasks;
+//using System.Collections.Generic;
 
 
 namespace ESBOrder.Test
@@ -14,9 +14,9 @@ namespace ESBOrder.Test
             Assert.True(true);
         }
 
-        [Fact]
-        public async Task Request_With_Query()
-        {
+       // [Fact]
+       // public async Task Request_With_Query()
+       // {
             //var query = new Dictionary<String, StringValues>();
             //query.Add("name", "ushio");
             //var body = "";
@@ -24,7 +24,7 @@ namespace ESBOrder.Test
             //var result = await HttpTrigger.RunAsync(req: HttpRequestSetup(query, body), log: log);
             //var resultObject = (OkObjectResult)result;
             //Assert.IsTrue(resultObject.Value != null && resultObject.Value.Contains("Hello, ushio"));
-            Assert.True(true);
-        }
+            //Assert.True(true);
+        //}
     }
 }
