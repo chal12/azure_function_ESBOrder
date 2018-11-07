@@ -16,6 +16,6 @@ public static async Task<IActionResult> Run(HttpRequest req, ILogger log)
     name = name ?? data?.name;
 
     return name != null
-        ? (ActionResult)new OkObjectResult($"Hello {name}, welcome to this super simple function. Fresh from your CI Pipeline.")
+        ? (ActionResult)new OkObjectResult($"Hello {name}, welcome to this super simple function. Fully tested. Fresh from your CI Pipeline.")
         : new BadRequestObjectResult("Please pass a name on the query string or in the request body");
 }
