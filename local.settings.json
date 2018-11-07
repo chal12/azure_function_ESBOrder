@@ -1,0 +1,17 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "WEBSITE_SLOT_NAME": "Production",
+    "FUNCTIONS_EXTENSION_VERSION": "~2",
+    "ScmType": "GitHub",
+    "WEBSITE_AUTH_ENABLED": "False",
+    "APPINSIGHTS_INSTRUMENTATIONKEY": "ff72833e-4f3a-4fb0-bca9-38ce02b10771",
+    "WEBSITE_NODE_DEFAULT_VERSION": "8.11.1",
+    "WEBSITE_CONTENTAZUREFILECONNECTIONSTRING": "DefaultEndpointsProtocol=https;AccountName=esborder;AccountKey=FzU2+ZoywG9EJEs0Y0YwUtqS8I3l2znwQTcYORGfnMcYTLRT00KN0WBSsoB5twVO8J0PhiUZf75efkhZuf90jg==",
+    "WEBSITE_CONTENTSHARE": "esborder8aa3",
+    "esborder_STORAGE": "DefaultEndpointsProtocol=https;AccountName=esborder;AccountKey=FzU2+ZoywG9EJEs0Y0YwUtqS8I3l2znwQTcYORGfnMcYTLRT00KN0WBSsoB5twVO8J0PhiUZf75efkhZuf90jg==",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "WEBSITE_SITE_NAME": "ESBOrder",
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=esborder;AccountKey=FzU2+ZoywG9EJEs0Y0YwUtqS8I3l2znwQTcYORGfnMcYTLRT00KN0WBSsoB5twVO8J0PhiUZf75efkhZuf90jg=="
+  }
+}

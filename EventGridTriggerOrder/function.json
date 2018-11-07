@@ -1,0 +1,16 @@
+{
+  "bindings": [
+    {
+      "type": "eventGridTrigger",
+      "name": "eventGridEvent",
+      "direction": "in"
+    },
+    {
+      "type": "blob",
+      "name": "outputBlob",
+      "path": "outcontainer/{rand-guid}.json",
+      "connection": "esborder_STORAGE",
+      "direction": "out"
+    }
+  ]
+}
