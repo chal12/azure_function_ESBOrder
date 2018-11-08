@@ -6,7 +6,7 @@ namespace ESBOrder.Test
     public class UnitTest1
     {
         [TestMethod]
-        public void SmokeTest()
+        public void TestMethod1()
         {
             Assert.IsTrue(true);
         }
